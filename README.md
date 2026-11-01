@@ -34,7 +34,7 @@ A binary classification project that predicts whether a loan application will be
 | Random forest | 0.9916 | 0.9869 | 0.9962 | 0.9987 | 7 | 2 |
 | Majority-class baseline | 0.7668 | 0.6218 | 1.0000 | 0.5000 | 323 | 0 |
 
-The same ordering (random forest, decision tree, logistic regression) holds under repeated cross-validation and over ten alternative splits, although the forest-tree gap is small. Permutation importance shows the models rely overwhelmingly on `cibil_score`: approval rates jump from about 10% to about 99.5% at a score of 550, so the label is largely a threshold function of one variable. See the notebook outputs for the full numbers.
+The same ordering (random forest, decision tree, logistic regression) holds under repeated cross-validation and over ten alternative splits, although the forest-tree gap is small. Permutation importance for the random forest shows it relies overwhelmingly on `cibil_score`: approval rates jump from about 10% to about 99.5% at a score of 550, so the label is largely a threshold function of one variable. See the notebook outputs for the full numbers.
 
 Figures are saved to `figures/`:
 
