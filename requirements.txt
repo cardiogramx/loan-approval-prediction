@@ -1,0 +1,12 @@
+# Versions recorded by the notebook's environment cell for the reported run
+# (Python 3.11.16, macOS arm64). Create the environment with Python 3.11, then:
+#   pip install -r requirements.txt
+pandas==2.1.4
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.3.2
+matplotlib==3.8.4
+
+# To run the notebook interactively (not needed by the analysis itself).
+# The reported run used JupyterLab 4.0.13.
+jupyterlab>=4.0,<5
